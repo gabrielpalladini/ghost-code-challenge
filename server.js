@@ -1,5 +1,4 @@
 // 5000 is not always available, enviroment variable to solve this issue
-
 if(process.env.NODE_ENV !== 'production') {
     require('dotenv').config() 
 }
